@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a>Master's student in Computer Science at University of Milano-Bicocca</a>.
 
