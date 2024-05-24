@@ -5,11 +5,10 @@ permalink: /
 subtitle: <a>Master's student in Computer Science at University of Milano-Bicocca</a>.
 
 profile:
-  align: left 
+  align: right 
   image: propic-collodio-bw.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Milano, Italia</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
