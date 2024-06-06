@@ -1,8 +1,8 @@
 ---
-layout: about
+layout: about 
 title: About
-permalink: /
-subtitle: <a>Master's student in Computer Science at University of Milano-Bicocca</a>.
+permalink: /about/
+subtitle: <h3><strong>My Cover Letter</strong></h3>
 
 profile:
   align: right 
@@ -10,43 +10,73 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+I am a student in the final stages of his Master's degree in Computer Science at
+the University of Milano-Bicocca with expected graduation in October 2024 with
+top marks. Currently under the supervision of Prof. Simone Melzi, I am working
+on my thesis aimed at investigating the spatial behavior of Diffusion Models
+(DMs). My journey through this program has solidified my passion for academic
+research and my desire to contribute in the field of Generative Image Synthesis.
 
-<!-- As a second-year master's student in computer science, I have found myself
-deeply interested in the research world in fields involving image and signal
-processing while also enjoying the challenge of experimenting with novel deep
-learning architectures. I am a detail-oriented and organized student who seeks
-challenges and new solutions to complex problems. During my Bachelor's degree I
-learned all the fundamentals of computer science while integrating them with my
-background in electronics and embedded systems. -->
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite -->
-<!-- [subreddit](http://reddit.com). You can put a picture in, too. The code is -->
-<!-- already in, just name your picture `prof_pic.jpg` and put it in the `img/` -->
-<!-- folder. -->
+## Past Research Experience
+I focused my Bachelor's on studying the theoretical and practical aspects of
+Signal and Image Processing ending with a thesis on the topic of Speech
+Recognition through Deep Learning. At the time I was fascinated by the idea of
+working with spectrograms and the problem of correctly framing a time varying
+signal. The findings of my thesis were later published in a paper presented at
+ICEE Berlin 2022.
 
-<!-- Put your address / P.O. box / other info right below your picture. You can also -->
-<!-- disable any of these elements by editing `profile` property of the YAML header -->
-<!-- of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will -->
-<!-- render your [publications page](/al-folio/publications/) automatically. -->
+I later followed my studies with a Master's degree in which I moved towards the
+fields of Computer Vision and Machine Learning. During this time, I won a
+research grant under Prof. Francesca Gasparini to develop a novel data analysis
+framework in a categorical and multidimensional setting. 
+The results of this work were published and presented by me at the 
+[AIxAS 2023 workshop](http://aixas.it/). 
+Furthemore, this work was later selected for an extension and publication in the 
+[Journal "Intelligenza Artificiale"](https://www.iospress.com/catalog/journals/intelligenza-artificiale)
+and as of writing this, the manuscript has been accepted and it is now waiting
+to be published in the next issue.
 
-<!-- Link to your social media connections, too. This theme is set up to use [Font -->
-<!-- Awesome icons](https://fontawesome.com/) and -->
-<!-- [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add -->
-<!-- your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Although in different fields, thanks to the projects I have been involved during
+my degrees I have gained practical experience with the world of academic
+research. These experiences spiked my interest for the research world led me to
+pursue my studies with a PhD.
+
+
+## Research Statement
+I am fascinated by the field of Generative Image Synthesis. I really find the
+idea of creating images out of nothing but a thought to be quite incredible.
+
+I first started working in this field during my Master's thesis, the aim of this
+research is to explore how the spatial information is constructed during the
+synthesis of an image in a diffusion pipeline.
+
+My research first began by investigating the topic of conceptual and spatial
+blending with DMs. This initial work allowed me to gain familiarity with DMs,
+understanding their implementation and mathematical principles. Furthermore, the
+findings of this allowed us to gain valuable insights into how to semantic is
+spatially contructed during the synthesis of an image. The results of this
+initial work were submitted and accepted at the 
+[EKAPI 2024 workshop](https://sites.google.com/unical.it/ekapi-2024/home).
+
+I am now planning to move forward with my thesis by exploring novel ways to
+spatially condition the generation of an image. I think one of the biggest
+limitations of current DMs is the lack of control over the spatial information,
+users often end up running multiple times the same model until satisfied with
+the compotition of its output; this poses a huge computational cost and it is
+not sustainable in the long run. I am interested in exploring how to make
+generative models more controllable and interpretable, especially in the context
+of image synthesis where I believe much work is still to be done.
+
+Making DMs completely controllable is a challenging task due to their high
+dependency on the initial noise. I am currently working on understanding how to
+overcome this limitation by understanding how the seed affects the spatial
+composition of the output. Once DMs are fully controllable, I believe they can
+be used in a wide range of applications, from reconstructing the optical flow
+and depth of a scene for Autonomous Driving, reconstructing the geometry of a
+scene like in NeRF or even in the field of medical imaging. These and many more
+are topics that really fascinate me and on which I would like to focus during my
+PhD.
