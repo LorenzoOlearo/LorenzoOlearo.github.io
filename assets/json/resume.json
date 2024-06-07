@@ -1,171 +1,120 @@
 {
   "basics": {
     "name": "Lorenzo Olearo",
-    "image": "",
     "email": "lorenzo.olearo@olearo.com",
-    "url": "lorenzoolearo.github.io",
-    "summary": "TODO",
-    // "location": {
-    //   "address": "2712 Broadway St",
-    //   "postalCode": "CA 94115",
-    //   "city": "San Francisco",
-    //   "countryCode": "US",
-    //   "region": "California"
-    // },
+    "url": "LorenzoOlearo.github.io"
+  },
+
 
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Milano-Bicocca",
+      "location": "Milano, Italy",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2022",
+      "endDate": "current",
+      "score": "",
+      "courses": ["Computer Vision, Advanced Machine Learning, Visual Information Processing, IoT, Industrial Systems"]
+    },
+    {
+      "institution": "University of Milano-Bicocca",
+      "location": "Milano, Italy",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2019",
+      "endDate": "2022",
+      "score": "",
+      "courses": ["Signal Processing, Image Processing"]
+    },
+    {
+      "institution": "ITI Omar",
+      "location": "Novara, Italy",
+      "area": "Electronics",
+      "studyType": "Diploma",
+      "startDate": "2013",
+      "endDate": "2018",
+      "score": "",
+      "courses": ["Electronics, Embedded Systems, IoT"]
     }
   ],
 
 
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "MultiMedia Signal Processing (MMSP) Laboratory",
+      "position": "Data Analyst",
+      "startDate": "2023-8",
+      "endDate": "2024-6",
+      "summary": "I worked as a data analyst for the “AMPEL” project. The project aims at the development of a system that can predict multidimensional poverty of older people from unlabelled categorical data. I worked on the data preprocessing and the development of the machine learning models. I then moved on the academic paper that was submitted and presented by me at AIxAS 2023. This work was recently selected and accepted for an extetion in the journal \"Intelligenza Artificial\".",
+      "highlights": ["Data Analysis", "Machine Learning", "Academic Research"]
+    },
+    {
+      "name": "University of Milano-Bicocca",
+      "position": "Tutor for the \"Computer Architecture\" course",
+      "startDate": "2023-3",
+      "endDate": "2023-7",
+      "summary": "I tutored a first year course of the Computer Science Bachelor's degree, during my assignment I taught some of the labs in the course while also prividing support and handouts for student.",
+      "highlights": ["Teaching", "Computer Architecture", "MIPS", "Digital Electronics"]
+    },
+    {
+      "name": "Imaging and Vision Laboratory",
+      "position": "Intern Researcher",
+      "startDate": "2022-3",
+      "endDate": "2022-6",
+      "summary": "I conducted a research on the effects of temporal aggregators in Speaker Verification. The re- search involved a deep study of the state-of-the-art in signal and speech processing as well as comprehensive review of the current deep learning approaches and architectures. Five temporal aggregators have been analyzed: TAP, GSP, SAP, ASP, and VLAD. Results show that attention- based aggregators perform better than the counterparts. Furthermore, parameterless aggrega- tors show poorer ability to generalize on long utterances.",
+      "highlights": ["Sound Processing", "Speaker Verification", "Deep Learning"]
+    },
+    {
+      "name": "32Connect.net",
+      "position": "C Programmer",
+      "startDate": "2021-3",
+      "endDate": "2021-6",
+      "summary": "I worked as a C programmer for Linux systems, I coded from the first line of the main a multi-threaded service that queries a remote sockets generating XML and Json files that will later be processed by other higher level applications.",
+      "highlights": ["C", "Linux", "Socket Programming"]
     }
   ],
+
+
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "unixMiB - University of Milano-Bicocca",
+      "location": "Milano, Italy",
+      "position": "Chairman",
+      "startDate": "2022-10",
+      "endDate": "current",
+      "summary": "I am responsible for coordinating with other committee members, assigning tasks and ensuring that extensive preparations are made to ensure the success of the events and talks. Thanks to our efforts, the Linux Day we organise each year continues to be one of the most successful events at the university, attracting a large number of students and the top companies in the field.",
+      "highlights": ["Linux Day 2023", "Linux Day 2024 (in preparation)"]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+
+
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "English C1",
+      "issuer": "University of Milano-Bicocca",
+      "url": "https://openbadges.bestr.it/public/assertions/g69VraFwQ8GHZzorTvKkDQ",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Signal Processing with MATLAB",
+      "issuer": "MATLAB Training Services",
+      "url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=afd4f658-a9cb-4db8-ba99-42ef1bdf4d97&",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+
+
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Fluent - C1",
       "icon": ""
     }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  ]
 }

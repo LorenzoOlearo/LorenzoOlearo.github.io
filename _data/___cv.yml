@@ -3,10 +3,8 @@
   contents:
     - name: Full Name
       value: Lorenzo Olearo
-    - name: Date of Birth
-      value: 11th May 1999
     - name: Languages
-      value: English, Italian
+      value: English (C1), Italian (Native)
 
 - title: Education
   type: time_table
