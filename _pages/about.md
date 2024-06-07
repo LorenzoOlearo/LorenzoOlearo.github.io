@@ -1,8 +1,10 @@
 ---
 layout: about 
 title: About
+heading: About Me
 permalink: /about/
 subtitle: <h3><strong>My Cover Letter</strong></h3>
+nav: true
 
 profile:
   align: right 
@@ -13,7 +15,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a student in the final stages of his Master's degree in Computer Science at
+I am a student at the end of his Master's degree in Computer Science at
 the University of Milano-Bicocca with expected graduation in October 2024 with
 top marks. Currently under the supervision of Prof. Simone Melzi, I am working
 on my thesis aimed at investigating the spatial behavior of Diffusion Models

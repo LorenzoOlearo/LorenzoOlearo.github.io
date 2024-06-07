@@ -1,6 +1,6 @@
 ---
 layout: photography
-permalink: /photography1/
+permalink: /photography/
 title: Photography
 nav: true
 nav_order: 5
