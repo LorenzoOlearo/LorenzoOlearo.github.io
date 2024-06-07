@@ -1,9 +1,8 @@
 ---
 layout: about 
 title: About
-heading: About Me
 permalink: /about/
-subtitle: <h3><strong>My Cover Letter</strong></h3>
+subtitle: <h1><strong>My Cover Letter</strong></h1>
 nav: true
 
 profile:
