@@ -12,9 +12,24 @@
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
     </div>
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
   </footer>
 {% else %}
+
   <footer class="sticky-bottom mt-5" role="contentinfo">
+
+    <div class="container-contact-message">
+      Feel free to reach out from any of the contacts below!
+    </div>
+
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}

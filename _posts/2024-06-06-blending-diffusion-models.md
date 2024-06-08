@@ -5,7 +5,6 @@ date: 2024-06-06 09:00:00
 description: How to blend concepts with diffusion models
 tags: diffusion_models, image_synthesis, blending
 categories: research
-social: true
 thumbnail: assets/img/blog/2024-05-11-blending-diffusion-models/thumbnail.png
 ---
 

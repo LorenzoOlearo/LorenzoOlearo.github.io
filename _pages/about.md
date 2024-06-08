@@ -11,7 +11,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
-social: true # includes social icons at the bottom of the page
 ---
 
 I am a student at the end of his Master's degree in Computer Science at
