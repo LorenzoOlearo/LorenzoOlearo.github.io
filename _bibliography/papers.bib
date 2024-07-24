@@ -2,7 +2,7 @@
 ---
 
 
-@article{blend,
+@article{blend24,
   title={How to Blend Concepts in Diffusion Models},
   author={Longari, Giorgio and Olearo, Lorenzo and Melzi, Simone and Pe{\~n}aloza, Rafael and Raganato, Alessandro},
   journal={arXiv preprint arXiv:2407.14280},
@@ -12,8 +12,36 @@
   abstract={
     For the last decade, there has been a push to use multi-dimensional (latent) spaces to represent concepts; and yet how to manipulate these concepts or reason with them remains largely unclear. Some recent methods exploit multiple latent representations and their connection, making this research question even more entangled. Our goal is to understand how operations in the latent space affect the underlying concepts. To that end, we explore the task of concept blending through diffusion models. Diffusion models are based on a connection between a latent representation of textual prompts and a latent space that enables image reconstruction and generation. This task allows us to try different text-based combination strategies, and evaluate easily through a visual analysis. Our conclusion is that concept blending through space manipulation is possible, although the best strategy depends on the context of the blend.
   },
-  pdf={https://arxiv.org/pdf/2407.14280}
+  pdf={https://arxiv.org/pdf/2407.14280},
+  html={https://arxiv.org/pdf/2407.14280}
 }
+
+
+@article{olearoIA24,
+  title={Facing multidimensional poverty in older adults: An artificial intelligence approach that reveals the variable relevance},
+  author={Olearo, Lorenzo and D'Adda, Fabio and Messina, Enza and Cremaschi, Marco and Bandini, Stefania and Gasparini, Francesca},
+  journal={Intelligenza Artificiale},
+  abbr={Journal},
+  year={2024},
+  abstract={
+    Despite the rapid development in very recent years of Artificial Intelligence models to predict poverty risk, this problem still remains an unsolved open challenge, especially from a multidimensional perspective. One of the main challenges is related to the scarcity of labelled and high-quality data for training models coupled with the lack of a general reference model to build good predictors. This results in the proposal of a variety of approaches tailored to specific contexts. This paper presents our proposal to address multidimensional poverty prediction, starting from an unlabelled dataset. We focus on the case of a fragile population, the older adults; our approach is highly flexible and can be easily adapted to various scenarios. Firstly, starting from expert knowledge, we apply a stochastic method for estimating the probability of an individual being poor, and we use this probability to identify three levels of risk. Then, we train an XGBoost classification model and exploit its tree structure to define a ranking of feature relevance. This information is used to create a new set of aggregated features representative of different poverty dimensions. An explainable novel Naive Bayes model is then trained for predicting individuals' deprivation level in our particular domain. The capacity to identify which variables are predominantly associated with poverty among older adults offers valuable insights for policymakers and decision-makers to address poverty effectively.
+  },
+  html={https://content.iospress.com/articles/intelligenza-artificiale/ia240027}
+}
+
+
+@article{olearoAS23,
+  title={An Artificial Intelligence approach to predict mutidimensional poverty of older people from unlabelled data},
+  author={Olearo, Lorenzo and D'Adda, Fabio and Messina, Vincenzina and Cremaschi, Marco and Bandini, Stefania and Gasparini, Francesca},
+  year={2023},
+  abbr={Conference},
+  abstract={
+    Despite the rapid development in very recent years of Artificial Intelligence models to predict poverty, this problem still remains an unsolved open issue especially in a multidimensional perspective. In this work we present our proposal to face multidimensional poverty in case of a fragile population, the older adults, starting from an unlabelled dataset, collected administering a proper questionnaire to about 500 individuals. Firstly a model that allows to label the collected data into three classes of poverty is proposed.  Then, XGBoost and Naive Bayes classifiers are considered to solve the classification problem. Finally, after having determined the relative importance of each feature, a novel Naive Bayes model is proposed that relies on new aggregated features that represent five poverty dimensions. These aggregated features are obtained by properly combining the variables collected through the questionnaire with cut-offs defined by a domain expert.
+  },
+  preview={},
+  pdf={https://ceur-ws.org/Vol-3623/AIxAS_2023_paper_10.pdf}
+}
+
 
 @inproceedings{piccoli2022comparison,
   title={A comparison of temporal aggregators for speaker verification},
@@ -29,16 +57,4 @@
   preview={},
   selected={true},
   html={https://ieeexplore.ieee.org/document/9937132}
-}
-
-@article{olearo2023artificial,
-  title={An Artificial Intelligence approach to predict mutidimensional poverty of older people from unlabelled data},
-  author={Olearo, Lorenzo and D'Adda, Fabio and Messina, Vincenzina and Cremaschi, Marco and Bandini, Stefania and Gasparini, Francesca},
-  year={2023},
-  abbr={Conference},
-  abstract={
-    Despite the rapid development in very recent years of Artificial Intelligence models to predict poverty, this problem still remains an unsolved open issue especially in a multidimensional perspective. In this work we present our proposal to face multidimensional poverty in case of a fragile population, the older adults, starting from an unlabelled dataset, collected administering a proper questionnaire to about 500 individuals. Firstly a model that allows to label the collected data into three classes of poverty is proposed.  Then, XGBoost and Naive Bayes classifiers are considered to solve the classification problem. Finally, after having determined the relative importance of each feature, a novel Naive Bayes model is proposed that relies on new aggregated features that represent five poverty dimensions. These aggregated features are obtained by properly combining the variables collected through the questionnaire with cut-offs defined by a domain expert.
-  },
-  preview={},
-  pdf={https://ceur-ws.org/Vol-3623/AIxAS_2023_paper_10.pdf}
 }
