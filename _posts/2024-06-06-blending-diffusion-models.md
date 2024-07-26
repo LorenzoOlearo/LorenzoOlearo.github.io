@@ -113,16 +113,14 @@ generated using the same `UniPCMultistepScheduler` scheduler at 25 steps.
 
 
 #### Conclusions
-The results of this research show that diffusion models are capable of blending
-different concepts, however, from our findings, there is no definitive method to
-do so. Each of them exhibits different behaviors and results which results vary
-depending on the semantical distance between the two concepts, as well as the
-spatial similarity of the two images synthesized from the respective prompts.
+The results of this research show that diffusion models can blend different
+concepts, however, from our findings, there is no definitive method to do so.
+Each of them exhibits different behaviors and effects as results vary depending
+on the semantical distance between the two concepts, as well as the spatial
+similarity of the two images synthesized from the respective prompts. 
 
-This research is part of my Master's thesis on understanding the spatial
-behavior of Diffusion Models. If you are interested in this topic and would like
-to collaborate feel free to contact me through any of the contacts at the bottom
-of this page.
-
-I will update the post with the link to the paper as soon as it is published.
-Stay tuned!
+This research is part of my Master’s thesis on understanding the spatial
+behavior of Diffusion Models. If you are interested in this topic and would
+like to collaborate feel free to contact me through any of the contacts at the
+bottom of this page. I will update the post with the link to the paper as soon
+as it is published. Stay tuned!
