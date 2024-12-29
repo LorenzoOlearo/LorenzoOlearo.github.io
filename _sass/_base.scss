@@ -2,8 +2,14 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
+ @font-face {
+   font-family: 'Junicode';
+   src: url('../fonts/junicode.ttf ') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
 
+// Typography
 p,
 h1,
 h2,
@@ -17,7 +23,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: Helvetica;
+  font-family: 'Helvetica';
 }
 
 hr {
@@ -47,6 +53,31 @@ table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+}
+
+#home-title-first-name {
+  font-family: 'Junicode';
+  font-size: 3.5rem;
+}
+
+#home-title-last-name {
+  font-family: 'Junicode';
+  font-size: 3.5rem;
+}
+
+#post-desc {
+  font-family: 'Junicode';
+  font-size: 1.5rem;
+}
+
+#navbar-brand-title {
+  font-family: 'Junicode';
+  font-size: 1.8rem;
+}
+
+#navbar-brand-title-bold {
+  font-family: 'Junicode';
+  font-size: 1.8rem;
 }
 
 .table-dark {
@@ -235,6 +266,7 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
+  font-family: 'Junicode';
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
