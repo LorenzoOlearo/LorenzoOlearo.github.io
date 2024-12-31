@@ -6,11 +6,11 @@ subtitle: <b><i>I synthesise images out of nothing but a thought.</i></b>
 
 profile:
   align: right 
-  image: propic-collodio-bw.jpg
+  image: eccv24.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: Presenting my Master's thesis work at KGM@ECCV24.
 
-news: false # includes a list of news items
+news: yes # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
@@ -23,8 +23,9 @@ controllable and high-fidelity image generation.
 
 I'm currently working under the supervision of Prof. Simone Melzi to extend my
 Master's thesis work on blending diffusion models. Are you interested in these
-topics and would like to know more about my work? Check out my latest blog post
-on [Blending Diffusion Models](/blog/2024/blending-diffusion-models/)!
+topics and would like to know more about my work? Check out [our
+preprint](https://arxiv.org/abs/2407.14280) or my latest blog post on [Blending
+Diffusion Models](/blog/2024/blending-diffusion-models/)!
 
 If you are interested in my work and would like to contact me, please do so
 through any of the contacts at the bottom of this page. You can also find my CV
