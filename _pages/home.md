@@ -2,13 +2,13 @@
 layout: home
 title: Home
 permalink: /
-subtitle: <b><i>I synthesise images out of nothing but a thought.</i></b>
+subtitle: <b><i>I make points flow in space</i></b>
 
 profile:
   align: right 
-  image: eccv24.jpg
+  image: propic-collodio-bw.jpg
   image_circular: false # crops the image to make it circular
-  more_info: Presenting my Master's thesis work at KGM@ECCV24.
+  more_info: Yep, that's me! On a 4x5 collodion-albumen plate
 
 news: yes # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -17,17 +17,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 Welcome to my personal website! I am Lorenzo Olearo, a PhD student in Computer
 Science at the University of Milano-Bicocca.
 
-I'm PhD student in computer science with a focus on generative image synthesis,
-specializing in diffusion models and flow matching architectures for
-controllable and high-fidelity image generation. 
+I'm currently working with Prof. Simone Melzi focusing both on generative image
+synthesis with Diffusion Models and novel geometric representations via Flow
+Matching.
 
-I'm currently working under the supervision of Prof. Simone Melzi to extend my
-Master's thesis work on blending diffusion models. Are you interested in these
-topics and would like to know more about my work? Check out [our
-preprint](https://arxiv.org/abs/2407.14280) or my latest blog post on [Blending
-Diffusion Models](/blog/2024/blending-diffusion-models/)!
+You can check out my [publications](/publications) to see what I've been up to,
+If you are interested in my work you can reach me through any of the contacts at
+the bottom of this page.
 
-If you are interested in my work and would like to contact me, please do so
-through any of the contacts at the bottom of this page. You can also find my CV
-under the [CV](/cv) or learn more about my research interests and background on
-the [About](/about) page.
+In my free time I really enjoy taking pictures of interesting things I see,
+mainly on film. I follow the entire process from the shooting to the development
+and finally even some printing in my own darkroom. Lately I began studying
+camera repair which is not only rewarding and fun but also a great escape from a
+computer screen.
+
