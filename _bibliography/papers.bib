@@ -1,15 +1,46 @@
 ---
 ---
+
+@misc{fuse,
+      abbr = {ECCV 2026},
+      title={FUSE: A Flow-based Mapping Between Shapes}, 
+      author={Lorenzo Olearo and Giulio Viganò and Daniele Baieri and Filippo Maggioli and Simone Melzi},
+      year={2026},
+      eprint={2511.13431},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.13431},
+      selected = {true},
+      abstract={We introduce a novel neural representation for maps between 3D shapes
+        based on flow-matching models, which is computationally efficient and
+        supports cross-representation shape matching without large-scale
+        training or data-driven procedures. 3D shapes are represented as the
+        probability distribution induced by a continuous and invertible flow
+        mapping from a fixed anchor distribution. Given a source and a target
+        shape, the composition of the inverse flow (source to anchor) with
+        the forward flow (anchor to target), we continuously map points
+        between the two surfaces. By encoding the shapes with a pointwise
+        task-tailored embedding, this construction provides an invertible and
+        modality-agnostic representation of maps between shapes across point
+        clouds, meshes, signed distance fields (SDFs), and volumetric data.
+        The resulting representation consistently achieves high coverage and
+        accuracy across diverse benchmarks and challenging settings in shape
+        matching. Beyond shape matching, our framework shows promising
+        results in other tasks, including UV mapping and registration of raw
+        point cloud scans of human bodies.},
+      pdf = {https://arxiv.org/pdf/2511.13431},
+      html = {https://arxiv.org/abs/2511.13431},
+}
+
+
 @misc{blend25,
-  abbr = {Preprint},
+  abbr = {Journal - Q1},
   title = {Blending Concepts with Text-to-Image Diffusion Models},
   author = {Lorenzo Olearo and Giorgio Longari and Alessandro Raganato and
             Rafael Peñaloza and Simone Melzi},
-  year = {2025},
-  eprint = {2506.23630},
-  archivePrefix = {arXiv},
+  year = {2026},
   primaryClass = {cs.CV},
-  url = {https://arxiv.org/abs/2506.23630},
+  url = {https://link.springer.com/article/10.1007/s44163-026-01134-1},
   selected = {true},
   abstract = { Diffusion models have dramatically advanced text-to-image
               generation in recent years, translating abstract concepts into
@@ -34,8 +65,8 @@
               seed affecting the outcome. These findings highlight the remarkable
               compositional potential of diffusion models while exposing their
               sensitivity to seemingly minor input variations. },
-  pdf = {https://arxiv.org/pdf/2506.23630},
-  html = {https://arxiv.org/abs/2506.23630},
+  pdf = {https://link.springer.com/content/pdf/10.1007/s44163-026-01134-1.pdf},
+  html = {https://link.springer.com/article/10.1007/s44163-026-01134-1},
 }
 
 @article{blend24,
@@ -104,34 +135,6 @@
 }
 
 
-@article{olearoAS23,
-  title = {An Artificial Intelligence approach to predict multidimensional
-           poverty of older people from unlabelled data},
-  author = {Olearo, Lorenzo and D'Adda, Fabio and Messina, Vincenzina and
-            Cremaschi, Marco and Bandini, Stefania and Gasparini, Francesca},
-  year = {2023},
-  abbr = {Conference},
-  abstract = { Despite the rapid development in very recent years of Artificial
-              Intelligence models to predict poverty, this problem still remains
-              an unsolved open issue especially in a multidimensional
-              perspective. In this work we present our proposal to face
-              multidimensional poverty in case of a fragile population, the older
-              adults, starting from an unlabelled dataset, collected
-              administering a proper questionnaire to about 500 individuals.
-              Firstly a model that allows to label the collected data into three
-              classes of poverty is proposed. Then, XGBoost and Naive Bayes
-              classifiers are considered to solve the classification problem.
-              Finally, after having determined the relative importance of each
-              feature, a novel Naive Bayes model is proposed that relies on new
-              aggregated features that represent five poverty dimensions. These
-              aggregated features are obtained by properly combining the
-              variables collected through the questionnaire with cut-offs defined
-              by a domain expert. },
-  preview = {},
-  pdf = {https://ceur-ws.org/Vol-3623/AIxAS_2023_paper_10.pdf},
-}
-
-
 @inproceedings{piccoli2022comparison,
   title = {A comparison of temporal aggregators for speaker verification},
   author = {Piccoli, Flavio and Olearo, Lorenzo and Bianco, Simone},
@@ -156,7 +159,6 @@
               VoxCeleb2 dataset show that there is a sweet spot for utterance
               length where speaker verification performance is higher
               independently from the temporal aggregator used. },
-  preview = {},
-  selected = {true},
+  selected = {false},
   html = {https://ieeexplore.ieee.org/document/9937132},
 }

@@ -9,6 +9,13 @@
    font-style: normal;
  }
 
+ @font-face {
+   font-family: 'Mondwest';
+   src: url('../fonts/mondwest-regular.otf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
+
 // Typography
 p,
 h1,
@@ -66,7 +73,7 @@ table.table a {
 }
 
 #post-desc {
-  font-family: 'Junicode';
+  font-family: 'Mondwest';
   font-size: 1.5rem;
 }
 
